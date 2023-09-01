@@ -1,0 +1,122 @@
+/*ESTILOS PARA EL HEADER*/
+header {
+    background-color: rgb(241, 241, 241);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: underline;
+}
+
+
+/*ESTILOS PARA SUBSECCIONES*/
+#informacion-personal,
+#habilidades {
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+/*ESTILOS PARA LOS TITULOS DE LAS SUBSECCIONES*/
+#informacion-personal h2,
+#habilidades h2 {
+    font-size: 25px;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: underline;
+}
+
+
+/*ESTILOS PARA LA LISTA DE HABILIDADES*/
+#habilidades ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 201, 201);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+/*ESTILOS PARA EL FOOTER*/
+footer {
+    background-color: rgb(181, 181, 181);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/*MEDIA QUERIS*/
+/*ESTILOS PARA PANTALLAS PEQUEÑAS*/
+@media only screen and (max-width: 600px) {
+
+    /*AJUSTAR PADDING*/
+    header,
+    #informacion-personal,
+    #habilidades {
+        padding: 10px;
+    }
+
+    /*CAMBIAR TAMAÑO DE LA FUENTE*/
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/*ESTILOS PARA PANTALLAS MEDIANAS*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    header,
+    #informacion-personal,
+    #habilidades {
+        padding: 15px;
+    }
+
+    /*AGRANDAR TITULOS*/
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    /*AUMENTAR EL PADDING*/
+    header,
+    #informacion-personal,
+    #habilidades {
+        padding: 20px;
+    }
+
+    /*AGRANDAR TITULOS*/
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+/*AJUSTAR EL BOX-SIZING*/
+* {
+    box-sizing: border-box;
+}
